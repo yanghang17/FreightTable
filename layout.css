@@ -1,0 +1,27 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,p,blockquote,th,td,ins,hr {
+	margin: 0px;
+	padding: 0px;
+}
+.freightTable {
+	margin: 30px auto;
+	border: 1px solid #ccc;
+	border-spacing: 0;
+	table-layout: fixed;
+	font-size: 14px;
+	border-collapse: collapse;
+}
+.freightTable caption {
+	margin-bottom: 7px;
+	font-weight: bold; 
+}
+.freightTable td, .freightTable th {
+	height: 45px;
+	border: 1px solid #ccc;
+	line-height: 45px;
+} 
+.freightTable td {
+	padding-left: 10px;
+}
+.freightTable thead, .freightTable tbody th {
+	background-color: #f7f7f7;
+}
